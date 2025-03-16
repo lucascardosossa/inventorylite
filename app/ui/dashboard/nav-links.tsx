@@ -9,11 +9,15 @@ import {
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'Invoices',
-    href: '/dashboard/invoices',
+    name: 'Inventario',
+    href: '/inventario',
     icon: DocumentDuplicateIcon,
   },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { 
+    name: 'Relatorios', 
+    href: '/relatorio', 
+    icon: UserGroupIcon 
+  },
 ];
 
 export default function NavLinks() {
